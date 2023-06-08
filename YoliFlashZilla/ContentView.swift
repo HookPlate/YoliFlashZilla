@@ -34,7 +34,7 @@ struct ContentView: View {
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
     @Environment(\.accessibilityEnabled) var accessibilityEnabled
     
-//repeating: takes one value and repeats it a number of times to create the array.
+//repeating: takes one value and repeats it a number of times to create the array..
     @State private var cards = [Card]()
     
     var body: some View {
