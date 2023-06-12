@@ -11,7 +11,8 @@ import SwiftUI
 struct YoliFlashZillaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           // ContentView()
+            DecksView()
         }
     }
 }
