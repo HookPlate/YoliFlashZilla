@@ -63,7 +63,7 @@ struct ContentView: View {
                             } else {
                                 inCorrectScore += 1
                             }
-                           withAnimation {//this fires when the closure in CardView fires thanks to trailing closure syntax
+                           withAnimation {//this fires when the closure in CardView fires thanks to trailing closure syntax - I think it's actually the above anser sent back by cardview. 
                                self.removeCard(at: index)
                            }
                         }
